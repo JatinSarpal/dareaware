@@ -5,7 +5,9 @@ const routes: Routes = [
   // { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: 'landing', loadChildren: './landing/landing.module#LandingPageModule' },
   { path: 'notification', loadChildren: './notification/notification.module#NotificationComponentModule' },
+  { path: 'signup', loadChildren: './signup/signup.module#SignupComponentModule' },
   { path: '', loadChildren: './notification/notification.module#NotificationComponentModule' }
+  
 ];
 @NgModule({
   imports: [
