@@ -6,7 +6,8 @@ const routes: Routes = [
   { path: 'landing', loadChildren: './landing/landing.module#LandingPageModule' },
   { path: 'notification', loadChildren: './notification/notification.module#NotificationComponentModule' },
   { path: 'signup', loadChildren: './signup/signup.module#SignupComponentModule' },
-  { path: '', loadChildren: './notification/notification.module#NotificationComponentModule' }
+  { path: '', loadChildren: './notification/notification.module#NotificationComponentModule' },
+  { path: 'createdareoraware', loadChildren: './createdareoraware/createdareoraware.module#CreateDareOrAwarePageModule' },
   
 ];
 @NgModule({
