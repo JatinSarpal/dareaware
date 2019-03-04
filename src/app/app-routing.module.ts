@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: '', loadChildren: './notification/notification.module#NotificationComponentModule' },
   { path: 'createdareoraware', loadChildren: './createdareoraware/createdareoraware.module#CreateDareOrAwarePageModule' },
   { path: 'edit' , loadChildren: './edit/edit.module#EditPageModule' },
-  { path: 'dare' , loadChildren: './dare/dare.module#DarePageModule' }
+  { path: 'dare' , loadChildren: './dare/dare.module#DarePageModule' },
+  { path: 'aware' , loadChildren: './aware/aware.module#AwarePageModule'}
 ];
 @NgModule({
   imports: [
