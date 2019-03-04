@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'signup', loadChildren: './signup/signup.module#SignupComponentModule' },
   { path: '', loadChildren: './notification/notification.module#NotificationComponentModule' },
   { path: 'createdareoraware', loadChildren: './createdareoraware/createdareoraware.module#CreateDareOrAwarePageModule' },
-  
+  {path:'edit',loadChildren:'./edit/edit.module#EditPageModule'}
 ];
 @NgModule({
   imports: [
