@@ -1,0 +1,88 @@
+
+/* =================================================
+                Profile
+=================================================
+ */
+ .profile_follow {
+    display: flow-root;
+    width: 100%;
+}
+#pp {
+    padding: 0px 25px 0px 25px;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+.profile_border {
+    border: 1px solid #f3f3f3;
+    padding-top: 13px;
+    margin-bottom: 15px;
+    background: #fafafa;
+    border-left: none;
+    border-right: none;
+}
+.profile_texts1 {
+    padding-right: 120px;
+}
+.profile_photo {
+    padding-right: 10px;
+}
+.profile_photo1 {
+    width: 100%;
+}
+.Seprater {
+    border-bottom: 1px solid gainsboro !important;
+    padding-bottom: 17px;
+}
+.image_top {
+    position: absolute;
+    bottom: 30%;
+    left: 41%;
+    margin-left: 35%;
+    background: #e5e5e5;
+    padding: 3px 9px 3px 9px;
+}
+.edit_profile {
+    padding-top: 10px;
+    margin-left: 40%;
+}
+.edit-txts_main {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-top: 2px;
+    margin-left: 46%;
+}
+.dare_text {
+    margin-top: 13px;
+    margin-left: 3px;
+    text-align: center;
+    margin-left: -1em;
+}
+.headerName{
+    float: left !important;
+    margin-left: 43% !important;
+    margin-top: 1% !important;
+}
+.stripGray{
+    
+    margin-top: -6px;
+    border-left: none;
+    border-right: none;
+    background: #fafafa !important;
+    width: 38em !important;
+    margin-left: 0em !important;
+}
+.para{
+    margin-left: 2em !important;
+}
+.inputShape{
+    
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    border-color: #f6f6f6;
+    background-color: #f6f6f6;
+    width: 30em;
+    padding: 4px !important;
+    
+}

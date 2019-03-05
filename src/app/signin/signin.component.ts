@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AccountService } from '../services/account.service';
+import { Response } from 'selenium-webdriver/http';
 
 @Component({
   selector: 'app-signin',
@@ -7,8 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SigninComponent implements OnInit {
 
-  constructor() { }
+  constructor(private accountService: AccountService) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.accountService.login("test","etet").then((response: any) =>{
+       debugger;
+    });
+  }
 
 }
