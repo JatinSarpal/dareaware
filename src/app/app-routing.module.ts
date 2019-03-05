@@ -6,14 +6,10 @@ const routes: Routes = [
   { path: 'landing', loadChildren: './landing/landing.module#LandingPageModule' },
   { path: 'notification', loadChildren: './notification/notification.module#NotificationComponentModule' },
   { path: 'signup', loadChildren: './signup/signup.module#SignupComponentModule' },
-  { path: 'signin', loadChildren: './signin/signin.module#SigninComponentModule' },
-  { path: 'createdareoraware', loadChildren: './createdareoraware/createdareoraware.module#CreateDareOrAwarePageModule' },
+  { path: '', loadChildren: './notification/notification.module#NotificationComponentModule' },  { path: 'createdareoraware', loadChildren: './createdareoraware/createdareoraware.module#CreateDareOrAwarePageModule' },
   { path: 'edit' , loadChildren: './edit/edit.module#EditPageModule' },
   { path: 'dare' , loadChildren: './dare/dare.module#DarePageModule' },
-  { path: 'aware' , loadChildren: './aware/aware.module#AwarePageModule'},
-  { path: 'profile' , loadChildren: './profile/profile.module#ProfilePageModule'},
-  { path: 'search' , loadChildren: './search/search.module#SearchPageModule'}
-];
+  { path: 'aware' , loadChildren: './aware/aware.module#AwarePageModule'}];
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
