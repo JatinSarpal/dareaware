@@ -148,13 +148,16 @@ button.btn.btn-default.share_cancle.all_text {
     .row1{
         padding: 0 170px 0 50px !important;
     }
-    .inputShape{
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
+    .inputShape{                                                                                                                                                                                                                                                                                                                  
         border-radius: 5px;
         margin-bottom: 5px;
         border: 1px solid;
         border-color: #f6f6f6;
         background-color: #f6f6f6;
-        opacity: 5;
+        width: 30em;
+        padding: 4px !important;
+    }
+
+    .para{
+        margin-left: 2em !important;
     }
