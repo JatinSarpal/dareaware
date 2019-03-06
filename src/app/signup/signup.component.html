@@ -1,73 +1,76 @@
 <ion-content padding-top padding-bottom padding-start padding-end class="tax">
   <div>
-    <ion-list lines="none" padding-start padding-end margin-bottom>
+    <form (ngSubmit)="signUp()">
+      <ion-list lines="none" padding-start padding-end margin-bottom>
         <ion-row>
-            <ion-col >
-                <img src="/assets/images/0001.png" >
-            </ion-col>
-          </ion-row>
-          <ion-row class="d-flex flex-row-reverse main_position" padding-top padding-bottom style="    margin-top: -45px;">
-              <ion-col class="col-xs-6">
-                <select class="dropdowns language1" style=" margin-left: 59%; margin-top: 50px; "  name="center_name">
-                  <option>English</option>
-                  <option value="NEWTON">Hindi</option>
-                  <option value="NEEDHAM">Punjabi</option>
-                  <option value="WELLESLEY">Arbic</option>
-                  <option value="BOSTON">Tamil</option>
-                </select>
-              </ion-col>
-            </ion-row>
-      <ion-row class="form-horizontal" padding-bottom>
-        <ion-col>
-          <ion-button class="btn_css">
-            <img class="facebook" src="/assets/images/facebook.png">
-            Log in wth facebook
-          </ion-button>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="txt_css">
-          <ion-input placeholder="Mobile Number / Email"></ion-input>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="txt_css">
-          <ion-input placeholder="Username"></ion-input>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="txt_css">
-          <ion-input placeholder="Password"></ion-input>
-        </ion-col>
-      </ion-row>
-      <ion-row class="instructions-row">
-        <ion-col style="margin-top: 15px !important;">
-          <ion-button class="btn_css">
-            Sign Up
-          </ion-button>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="frgt_mrgn">
-          <a class="anch" routerLink="/forgot-password">Forgot Password?</a>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="btn_signin">
-          <ion-input placeholder="already your account   sign in "> </ion-input>
-        </ion-col>
-      </ion-row>
-      <ion-row class="lbl_get">
-        <ion-col >
-          <ion-label >Get the app.</ion-label>
-        </ion-col>
-      </ion-row>
-      <ion-row  class="Ggl_btn">
-        <ion-col >
-          <img class="firstimg" src="/assets/images/01.png">
-          <img class="firstimg" src="/assets/images/02.png">
-        </ion-col>
-      </ion-row>
-    </ion-list>
+          <ion-col>
+            <img src="/assets/images/0001.png">
+          </ion-col>
+        </ion-row>
+        <ion-row class="d-flex flex-row-reverse main_position" padding-top padding-bottom
+          style="    margin-top: -45px;">
+          <ion-col class="col-xs-6">
+            <select class="dropdowns language1" style=" margin-left: 59%; margin-top: 50px; " name="center_name">
+              <option>English</option>
+              <option value="NEWTON">Hindi</option>
+              <option value="NEEDHAM">Punjabi</option>
+              <option value="WELLESLEY">Arbic</option>
+              <option value="BOSTON">Tamil</option>
+            </select>
+          </ion-col>
+        </ion-row>
+        <ion-row class="form-horizontal" padding-bottom>
+          <ion-col>
+            <ion-button class="btn_css">
+              <img class="facebook" src="/assets/images/facebook.png">
+              Log in wth facebook
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="txt_css">
+            <ion-input placeholder="Mobile Number / Email" name="email" [(ngModel)]="signupModel.email"></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="txt_css">
+            <ion-input placeholder="Username" name="userName" [(ngModel)]="signupModel.userName"></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="txt_css">
+            <ion-input placeholder="Password" name="password" [(ngModel)]="signupModel.password"></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row class="instructions-row">
+          <ion-col style="margin-top: 15px !important;">
+            <ion-button class="btn_css" type="submit">
+              Sign Up
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="frgt_mrgn">
+            <a class="anch" routerLink="/forgot-password">Forgot Password?</a>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="btn_signin">
+            <ion-input placeholder="already your account sign in "> </ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row class="lbl_get">
+          <ion-col>
+            <ion-label>Get the app.</ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row class="Ggl_btn">
+          <ion-col>
+            <img class="firstimg" src="/assets/images/01.png">
+            <img class="firstimg" src="/assets/images/02.png">
+          </ion-col>
+        </ion-row>
+      </ion-list>
+    </form>
   </div>
 </ion-content>

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "https://google.com/"
+  baseUrl: "http://staging.wisdominfosoft.com/lumenapi/public/"
 };
 
 /*
