@@ -12,8 +12,4 @@ export class ForgotPasswordComponent implements OnInit {
 
   ngOnInit() {}
   
-  gotoback(){
-    this.navCtrl.navigateBack('/signin');
-  
-  }
 }
