@@ -2,6 +2,7 @@ import { Injectable, EventEmitter } from '@angular/core';
 import { MainService } from './main.service';
 import { environment } from '../../environments/environment';
 import { SignupModel } from '../models/signup-model';
+import { SigninModel } from '../models/Signin-model';
 
 @Injectable({
   providedIn: 'root'
@@ -12,18 +13,15 @@ export class AccountService {
   constructor(private mainService: MainService) { 
   }
 
-  login(username,password){
+  signin(signinModel:SigninModel){
     return this.mainService
-            .get(`${this.baseUrl}login`)
-            .toPromise()
-            .then(data=>{
-              return data;
-            });
+            .post(`${this.baseUrl}/login`, signinModel).toPromise();
+  
   }
 
   signUp(signupModel: SignupModel){
     return this.mainService
-            .post(`${this.baseUrl}register`, signupModel).toPromise();
+            .post(`${this.baseUrl}/register`, signupModel).toPromise();
   }
-
 }
+
