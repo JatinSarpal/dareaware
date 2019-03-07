@@ -8,20 +8,20 @@ import { SigninModel } from '../models/Signin-model';
   providedIn: 'root'
 })
 export class AccountService {
-  private baseUrl:string = `${environment.baseUrl}`;
+  private baseUrl: string = `${environment.baseUrl}`;
 
-  constructor(private mainService: MainService) { 
+  constructor(private mainService: MainService) {
   }
 
-  signin(signinModel:SigninModel){
+  signin(signinModel: SigninModel) {
     return this.mainService
-            .post(`${this.baseUrl}/login`, signinModel).toPromise();
-  
+      .post(`${this.baseUrl}/login`, signinModel).toPromise();
+
   }
 
-  signUp(signupModel: SignupModel){
+  signUp(signupModel: SignupModel) {
     return this.mainService
-            .post(`${this.baseUrl}/register`, signupModel).toPromise();
+      .post(`${this.baseUrl}/register`, signupModel).toPromise();
   }
 }
 

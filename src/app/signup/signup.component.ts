@@ -22,9 +22,9 @@ export class SignupComponent implements OnInit {
   ngOnInit() {}
 
   signUp(){
-    let data = this.signupModel;
-    //this.accountService.signUp(this.signupModel).then((response:any) => {
-    //})
+    // let data = this.signupModel;
+    // this.accountService.signUp(this.signupModel).then((response:any) => {
+    // })
     this.navCtrl.navigateForward('/profile'); 
   }
 
