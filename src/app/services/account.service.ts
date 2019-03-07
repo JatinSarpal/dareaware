@@ -7,23 +7,26 @@ import { SignupModel } from '../models/signup-model';
   providedIn: 'root'
 })
 export class AccountService {
-  private baseUrl:string = `${environment.baseUrl}`;
+  private baseUrl: string = `${environment.baseUrl}`;
 
-  constructor(private mainService: MainService) { 
+  constructor(private mainService: MainService) {
   }
 
-  login(username,password){
-    return this.mainService
-            .get(`${this.baseUrl}login`)
-            .toPromise()
-            .then(data=>{
-              return data;
-            });
+  login(username, password) {
+    // return this.mainService
+    //   .get(`${this.baseUrl}login`)
+    //   .toPromise()
+    //   .then(data => {
+    //     return data;
+    //   });
   }
 
-  signUp(signupModel: SignupModel){
-    return this.mainService
-            .post(`${this.baseUrl}register`, signupModel).toPromise();
+  signUp(signupModel: SignupModel) {
+    this.mainService
+      .post(`${this.baseUrl}register?username=`+signupModel.userName + '&email_number='+signupModel.email+ '&password='+signupModel.password,null).toPromise()
+      .then(data =>{
+        return data;
+      });
   }
 
 }
