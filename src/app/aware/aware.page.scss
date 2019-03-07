@@ -154,10 +154,21 @@ button.btn.btn-default.share_cancle.all_text {
         border: 1px solid;
         border-color: #f6f6f6;
         background-color: #f6f6f6;
-        width: 30em;
+        width: 20em;
         padding: 4px !important;
     }
 
     .para{
         margin-left: 2em !important;
     }
+
+    .scrollBar{
+        overflow-y: var(--overflow);
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: -30px;
+          bottom: 0;
+          overflow-x: hidden;
+          
+        }
