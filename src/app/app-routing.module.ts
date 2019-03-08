@@ -13,7 +13,8 @@ const routes: Routes = [
   { path: 'aware' , loadChildren: './aware/aware.module#AwarePageModule'},
   { path: 'search' , loadChildren: './search/search.module#SearchPageModule'},
   { path: 'profile' , loadChildren: './profile/profile.module#ProfilePageModule'},
-  { path: 'forgot-password' , loadChildren: './forgot-password/forgot-password.module#ForgotPasswordModule'}];
+  { path: 'forgot-password' , loadChildren: './forgot-password/forgot-password.module#ForgotPasswordModule'},
+  { path: 'tag-friend' , loadChildren: './tag-friend/tag-friend.module#TagFriendPageModule'}];
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
