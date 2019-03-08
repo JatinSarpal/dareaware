@@ -1,8 +1,7 @@
 
 /* =================================================
-                Profile
-=================================================
- */
+                        Profile
+   ================================================= */
  .profile_follow {
     display: flow-root;
     width: 100%;
@@ -85,4 +84,12 @@
     width: 30em;
     padding: 4px !important;
     
+}
+.scrollBar{
+    overflow-y: var(--overflow);
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: -30px;
+      bottom: 0;
 }
