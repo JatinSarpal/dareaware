@@ -2,11 +2,38 @@
 /* =======================================================
                  create dare and aware
 ======================================================= */
+.headerStyle{
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 69%;
+    z-index: 10;
+    margin-left: 15%;
+    background-color:#7b98d6 !important
+}
+.txt_mrgn{
+    margin-top: 16px;
+    width: 72%;
+    margin-left: 13%;
+    font-size: 12px;
+}
+.iconStyle{
+    width: 66%;
+    border: 1px solid #f2f2f2;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-left: 16%;
+}
 .create_txt {
     color: white;
     font-weight: bold;
     margin-top: 2px;
-	font-size:14px;
+    font-size:14px;
+    float: left !important;
+    margin-left: 13% !important;
+    margin-top: 1% !important;
 } 
 select.dropdowns {
     margin-top: 20px;
@@ -27,10 +54,11 @@ select.dropdowns {
 }
  
 .dropSetting{
+    margin-left: -31px;
     border: .1px solid;
-border-color: lightgray;
-height: 20px;
-margin-top: 8px;
+    border-color: lightgray;
+    height: 20px;
+    margin-top: 38px;
 }
 .textArea{
     border: 1px solid;
@@ -42,8 +70,9 @@ margin-top: 8px;
     background: transparent;
 }
 .buttonFoot{
-width: 100% ; 
-background:#7b98d6 !important;
+    width: 67%;
+    background:#7b98d6 !important;
+    margin-left: 16%;
 
 }
 .darwarimgHrader
@@ -61,6 +90,273 @@ background:#7b98d6 !important;
     padding-bottom:5px !important;
     padding-top: 10px;
     padding-right: 20px;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 73%;
+    z-index: 10;
+    margin-left: 13%;
 }
 
-
+.scrollBar{
+    overflow-y: var(--overflow); 
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    overflow-x: hidden; 
+    
+    }
+    @media (min-width: 320px) and (max-width: 360px) {
+        .headerStyle {
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            background-color: #7b98d6 !important;
+            margin-left: 0px !important;
+        }
+        .pad-item {
+            padding-bottom: 5px !important;
+            padding-top: 10px;
+            padding-right: 20px;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0px !important;
+        }
+        .txt_mrgn{
+            margin-top: 16px;
+            width: 93%;
+            font-size: 12px;
+            margin-left: 0% !important;
+        }
+        .iconStyle{
+            width: 90%;
+            border: 1px solid #f2f2f2;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            margin-left: 0% !important;
+        }
+        .buttonFoot{
+            width: 91%;
+            background: #7b98d6 !important;
+            margin-left: 0% !important;
+        }
+    }
+    @media (min-width: 360px) and (max-width: 410px) {
+        .headerStyle {
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            background-color: #7b98d6 !important;
+            margin-left: 0px !important;
+        }
+        .pad-item {
+            padding-bottom: 5px !important;
+            padding-top: 10px;
+            padding-right: 20px;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0px !important;
+        }
+        .txt_mrgn{
+            margin-top: 16px;
+            width: 93%;
+            font-size: 12px;
+            margin-left: 0% !important;
+        }
+        .iconStyle{
+            width: 90%;
+            border: 1px solid #f2f2f2;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            margin-left: 0% !important;
+        }
+        .buttonFoot{
+            width: 91%;
+            background: #7b98d6 !important;
+            margin-left: 0% !important;
+        }
+    }
+    @media (min-width: 411px) and (max-width: 599px) { 
+        .headerStyle {
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            background-color: #7b98d6 !important;
+            margin-left: 0px !important;
+        }
+        .pad-item {
+            padding-bottom: 5px !important;
+            padding-top: 10px;
+            padding-right: 20px;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0px !important;
+        }
+        .txt_mrgn{
+            margin-top: 16px;
+            width: 93%;
+            font-size: 12px;
+            margin-left: 0% !important;
+        }
+        .iconStyle{
+            width: 90%;
+            border: 1px solid #f2f2f2;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            margin-left: 0% !important;
+        }
+        .buttonFoot{
+            width: 91%;
+            background: #7b98d6 !important;
+            margin-left: 0% !important;
+        } 
+    }
+    @media (min-width: 600px) and (max-width: 767px) { 
+        .headerStyle {
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            background-color: #7b98d6 !important;
+            margin-left: 0px !important;
+        }
+        .pad-item {
+            padding-bottom: 5px !important;
+            padding-top: 10px;
+            padding-right: 20px;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0px !important;
+        }
+        .txt_mrgn{
+            margin-top: 16px;
+            width: 93%;
+            font-size: 12px;
+            margin-left: 0% !important;
+        }
+        .iconStyle{
+            width: 90%;
+            border: 1px solid #f2f2f2;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            margin-left: 0% !important;
+        }
+        .buttonFoot{
+            width: 91%;
+            background: #7b98d6 !important;
+            margin-left: 0% !important;
+        } 
+    }
+     /*iPad*/
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .headerStyle {
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        background-color: #7b98d6 !important;
+        margin-left: 0px !important;
+    }
+    .pad-item {
+        padding-bottom: 5px !important;
+        padding-top: 10px;
+        padding-right: 20px;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0px !important;
+    }
+    .txt_mrgn{
+        margin-top: 16px;
+        width: 93%;
+        font-size: 12px;
+        margin-left: 0% !important;
+    }
+    .iconStyle{
+        width: 90%;
+        border: 1px solid #f2f2f2;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        margin-left: 0% !important;
+    }
+    .buttonFoot{
+        width: 91%;
+        background: #7b98d6 !important;
+        margin-left: 0% !important;
+    } 
+}
+/*iPad Pro*/
+@media (min-width: 1024px) and (max-width: 1366px) { 
+    .headerStyle{
+        display: block;
+        position: relative;
+        -ms-flex-order: -1;
+        order: -1;
+        width: 69%;
+        z-index: 10;
+        margin-left: 15%;
+        background-color:#7b98d6 !important
+    }
+    .txt_mrgn{
+        margin-top: 16px;
+        width: 72%;
+        margin-left: 13%;
+        font-size: 12px;
+    }
+    .pad-item{
+        padding-bottom:5px !important;
+        padding-top: 10px;
+        padding-right: 20px;
+        display: block;
+        position: relative;
+        -ms-flex-order: -1;
+        order: -1;
+        width: 73%;
+        z-index: 10;
+        margin-left: 13%;
+    }
+   
+    .iconStyle{
+        width: 66%;
+        border: 1px solid #f2f2f2;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        margin-left: 16%;
+    }
+    .buttonFoot{
+        width: 67%;
+        background:#7b98d6 !important;
+        margin-left: 16%;
+    }
+}

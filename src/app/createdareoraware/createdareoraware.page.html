@@ -1,42 +1,37 @@
-<ion-header style="background-color:#7b98d6 !important">
+<ion-header class="headerStyle">
 	<ion-toolbar color="#7b98d6 !important" style="background-color:#7b98d6 !important">
 		<ion-title style="background:#7b98d6;">
 			<img src="assets/images/left_arrow.png" class="darwarHrader"
 				style="float: left !important; margin-top: 1% !important;">
-			<h4 class="create_txt darwarHrader"
-				style="float: left !important;margin-left: 35% !important;margin-top: 1% !important;">Create dare or
-				aware</h4>
+			<h4 class="create_txt darwarHrader">Create dare or aware</h4>
 		</ion-title>
 	</ion-toolbar>
 </ion-header>
 
 <ion-content>
+		<div class="scrollBar">
 	<ion-item lines="none" class="pad-item">
 		<img class="logo_notefication1" src="assets/images/bg_user.png">
 		<span class="online_icon"></span>
 		<ion-item lines="none" class="all_text dare_bold cursor" style="border:none !important">
 			<ion-label>Name</ion-label>
-
-			<ion-item lines="none" style="border:none !important; ">
-				<ion-select placeholder="Dare" class="dropSetting" style="margin-right: 12px;">
-					<ion-select-option>Dare</ion-select-option>
-					<ion-select-option>Aware</ion-select-option>
-				</ion-select>
-				<ion-select placeholder="Public" class="dropSetting">
-					<ion-select-option>Public</ion-select-option>
-					<ion-select-option value="NEWTON">Friends</ion-select-option>
-					<ion-select-option value="NEEDHAM">Only Me</ion-select-option>
-					<ion-select-option value="WELLESLEY">Custom</ion-select-option>
-					<ion-select-option value="BOSTON">Close Friends</ion-select-option>
-				</ion-select>
-			</ion-item>
+			<select class="dropSetting" style="margin-right: 12px;">
+				<option>Dare</option>
+				<option value="NEWTON">Aware</option>
+			</select>
+			<select style="margin-top: 39px;">
+				<option>Public</option>
+				<option value="NEWTON">Friends</option>
+				<option value="NEEDHAM">Only Me</option>
+				<option value="WELLESLEY">Custom</option>
+				<option value="BOSTON">Close Friends</option>
+			</select>
 		</ion-item>
 	</ion-item>
-
-	<ion-textarea class="textArea"  id="comment"
-		placeholder="Write Something...."></ion-textarea>
-
-	<ion-item lines="none" class="d-flex bd-highlight main_note_txt">
+	<ion-item lines="none" class="txt_mrgn">
+		<ion-textarea class="textArea" id="comment" placeholder="Write Something...."></ion-textarea>
+	</ion-item>
+	<ion-item lines="none" class="iconStyle">
 		<ion-list class="img_cont">
 			<img class="create_img" src="assets/images/Photo.png">
 			<span class="online_icon"></span>
@@ -45,7 +40,7 @@
 			<span class="all_text">Photo</span>
 		</ion-list>
 	</ion-item>
-	<ion-item lines="none" class="d-flex bd-highlight main_note_txt">
+	<ion-item lines="none" class="iconStyle">
 		<ion-list class="img_cont">
 			<img class="create_img" src="assets/images/Video.png">
 			<span class="online_icon"></span>
@@ -54,7 +49,7 @@
 			<span class="all_text">Video</span>
 		</ion-list>
 	</ion-item>
-	<ion-item lines="none" class="d-flex bd-highlight main_note_txt">
+	<ion-item lines="none" class="iconStyle">
 		<ion-list class="img_cont">
 			<img class="create_img" src="assets/images/Tag-Friends.png">
 			<span class="online_icon"></span>
@@ -63,7 +58,7 @@
 			<span class="all_text">Tag Friends</span>
 		</ion-list>
 	</ion-item>
-	<ion-item lines="none" class="d-flex bd-highlight main_note_txt">
+	<ion-item lines="none" class="iconStyle">
 		<ion-list class="img_cont">
 			<img class="create_img" src="assets/images/Location.png">
 			<span class="online_icon"></span>
@@ -72,7 +67,7 @@
 			<span class="all_text">Location</span>
 		</ion-list>
 	</ion-item>
-	<ion-item lines="none" class="d-flex bd-highlight main_note_txt">
+	<ion-item lines="none" class="iconStyle">
 		<ion-list class="img_cont">
 			<img class="create_img" src="assets/images/Feeling.png">
 			<span class="online_icon"></span>
@@ -83,8 +78,7 @@
 	</ion-item>
 
 	<div class="buttonFoot" style="background:#7b98d6 !important">
-		<!-- <p class="text-center wt100 all_text">Post</p>  -->
 		<ion-button type="button" color="#7b98d6 !important" expand="full">Post</ion-button>
 	</div>
-
+		</div>
 </ion-content>
