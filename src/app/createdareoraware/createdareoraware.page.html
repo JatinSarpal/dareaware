@@ -1,11 +1,8 @@
 <ion-header style="background-color:#7b98d6 !important">
 	<ion-toolbar color="#7b98d6 !important" style="background-color:#7b98d6 !important">
 		<ion-title style="background:#7b98d6;">
-			<img src="assets/images/left_arrow.png" class="darwarHrader"
-				style="float: left !important; margin-top: 1% !important;">
-			<h4 class="create_txt darwarHrader"
-				style="float: left !important;margin-left: 35% !important;margin-top: 1% !important;">Create dare or
-				aware</h4>
+			<img src="assets/images/left_arrow.png" class="darwarimgHeader">
+			<h4 class="create_txt darwarTextHeader">Create dare or aware</h4>
 		</ion-title>
 	</ion-toolbar>
 </ion-header>
@@ -14,23 +11,23 @@
 	<ion-item lines="none" class="pad-item">
 		<img class="logo_notefication1" src="assets/images/bg_user.png">
 		<span class="online_icon"></span>
-		<ion-item lines="none" class="all_text dare_bold cursor" style="border:none !important">
-			<ion-label>Name</ion-label>
-
-			<ion-item lines="none" style="border:none !important; ">
-				<ion-select placeholder="Dare" class="dropSetting" style="margin-right: 12px;">
-					<ion-select-option>Dare</ion-select-option>
-					<ion-select-option>Aware</ion-select-option>
-				</ion-select>
-				<ion-select placeholder="Public" class="dropSetting">
-					<ion-select-option>Public</ion-select-option>
-					<ion-select-option value="NEWTON">Friends</ion-select-option>
-					<ion-select-option value="NEEDHAM">Only Me</ion-select-option>
-					<ion-select-option value="WELLESLEY">Custom</ion-select-option>
-					<ion-select-option value="BOSTON">Close Friends</ion-select-option>
-				</ion-select>
+		<ion-grid lines="none" class="all_text dare_bold cursor" style="border:none !important;">
+			<ion-label style="margin-left: 15px;">Name</ion-label>
+			
+			<ion-item lines="none" style="border:none !important;">
+				<select placeholder="Dare" class="dropSetting" style="margin-right: 12px;">
+					<option>Dare</option>
+					<option>Aware</option>
+				</select>
+				<select placeholder="Public" class="dropSetting">
+					<option>Public</option>
+					<option value="NEWTON">Friends</option>
+					<option value="NEEDHAM">Only Me</option>
+					<option value="WELLESLEY">Custom</option>
+					<option value="BOSTON">Close Friends</option>
+				</select>
 			</ion-item>
-		</ion-item>
+		</ion-grid>
 	</ion-item>
 
 	<ion-textarea class="textArea"  id="comment"
