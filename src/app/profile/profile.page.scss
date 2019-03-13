@@ -93,3 +93,212 @@
       right: -30px;
       bottom: 0;
 }
+.headerStyle{
+    background-color:#7b98d6 !important;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 65%;
+    z-index: 10;
+    margin-left: 3%;
+}
+.contentStyle{
+    width: 68%;
+}
+@media (min-width: 320px) and (max-width: 360px) {
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 33%;
+    }
+    .edit-txts_main[_ngcontent-c0] {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_follow{
+        display: flow-root;
+        width: 114%;
+    }
+}
+@media (min-width: 360px) and (max-width: 410px) {
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 33%;
+    }
+    .edit-txts_main[_ngcontent-c0] {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_follow{
+        display: flow-root;
+        width: 114%;
+    }
+}
+@media (min-width: 411px) and (max-width: 599px) { 
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 33%;
+    }
+    .edit-txts_main[_ngcontent-c0] {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_follow{
+        display: flow-root;
+        width: 114%;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) { 
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 33%;
+    }
+    .edit-txts_main[_ngcontent-c0] {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_follow{
+        display: flow-root;
+        width: 114%;
+    }
+}
+
+ /*iPad*/
+ @media (min-width: 768px) and (max-width: 1023px) { 
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 33%;
+    }
+    .edit-txts_main[_ngcontent-c0] {
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_follow{
+        display: flow-root;
+        width: 114%;
+    }
+ }
+ /*iPad Pro*/
+@media (min-width: 1024px) and (max-width: 1366px) { 
+    .headerStyle{
+        background-color:#7b98d6 !important;
+        display: block;
+        position: relative;
+        -ms-flex-order: -1;
+        order: -1;
+        width: 65%;
+        z-index: 10;
+        margin-left: 3%;
+    }
+    .contentStyle{
+        width: 68%;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 40%;
+    }
+    .edit-txts_main{
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 46%;
+    }
+    .profile_follow{
+        display: flow-root;
+        width: 100%;
+    }
+}
