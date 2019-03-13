@@ -21,7 +21,9 @@ export class AccountService {
 
   signUp(signupModel: SignupModel) {
     return this.mainService
-      .post(`${this.baseUrl}/register`, signupModel).toPromise();
+      .post(`${this.baseUrl}register`, signupModel).toPromise().then(data => {
+        return data;
+      });;
   }
 }
 

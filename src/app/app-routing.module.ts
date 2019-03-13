@@ -14,7 +14,8 @@ const routes: Routes = [
   { path: 'search' , loadChildren: './search/search.module#SearchPageModule'},
   { path: 'profile' , loadChildren: './profile/profile.module#ProfilePageModule'},
   { path: 'forgot-password' , loadChildren: './forgot-password/forgot-password.module#ForgotPasswordModule'},
-  { path: 'tag-friend' , loadChildren: './tag-friend/tag-friend.module#TagFriendPageModule'}];
+  { path: 'tag-friend' , loadChildren: './tag-friend/tag-friend.module#TagFriendPageModule'},
+  { path: 'start' , loadChildren: './start/start.module#StartPageModule'}];
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })

@@ -1,0 +1,403 @@
+.headerStyle{
+    background-color:#7b98d6 !important;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 65%;
+    z-index: 10;
+    margin-left: 3%;
+}
+.contentStyle{
+    width: 68%;
+}
+img.user {
+    width: 50px;
+}
+.dare {
+    text-align: center;
+}
+p.edit {
+    border: 2px solid #c5c5c5;
+    line-height: 16px;
+    margin: 0px 3px 0px 6px;
+    position: absolute;
+    bottom: 36%;
+    left: 39%;
+    font-weight: bold;
+    color: #385185;
+}
+p.Name_txt {
+    font-weight: normal;
+    margin-top: 8px;
+}
+.dare_text {
+    margin-top: 13px;
+    margin-left: 0px;
+	text-align: center;
+}
+.d-flex.justify-content-around.-edit_profile {
+    width: 26em;
+}
+.darerelative {
+    position: relative;
+}
+.center {
+    text-align: center;
+}
+img.user_2 {
+    width: 40px;
+    padding-top: 12px;
+    margin-left: 10px;
+}
+.banner_dare {
+    width: 100%;
+}
+p.color {
+    margin-top: 1px;
+    color: #385185;
+}
+.dare_bold {
+    font-weight: bold;
+    font-size: 12px;
+}
+.numbering {
+    padding-left: 10px;
+}
+.like_section {
+    padding-top: 10px;
+}
+.block_seven input {
+    width: 94%;
+    height: 40px;
+    border-radius: 11px;
+    padding-left: 12px;
+    background: #f6f6f6;
+    border: none;
+}
+.user_3 {
+    margin-top: 12px;
+}
+.size1 {
+    position: absolute;
+    right: 15%;
+    top: 40%;
+}
+.cursor {
+    cursor: pointer;
+}
+.start_img {
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+}
+.sub_txt {
+    font-size: 10px;
+}
+a.color {
+    text-decoration: none;
+}
+button.color.all_text.cursor {
+    color: #337ab7;
+    background: no-repeat;
+    border: none;
+}
+input.form-control.search_img.all_text {
+    padding-top: 2px;
+}
+input.user_3.all_text {
+    padding-right: 104px;
+}
+.dropdown-menu.dare_drop {
+    position: absolute;
+    left:-475%;
+}
+.name_link:focus, .name_link:hover {
+    color: #000;
+    text-decoration: none;
+}
+.name_link {
+    color: #000;
+}
+.more1 {
+    padding-top: 2px;
+}
+button.btn.btn-default.share_cancle.all_text {
+    background: #aec9e8;
+    padding: 2px 18px 3px 18px;
+    color: white;
+    border-radius: none !important;
+	border: none;
+}
+.modeal1 {
+    border-top: none;
+}
+.more123 {
+    margin-top: 2px;
+    color:#337ab7;
+}
+.more123:hover{
+	color:#0056b3;
+    }
+    
+   :host /deep/ .item-inner{
+    border: none !important;}
+    
+    .full_form{
+        width: 26.4em;
+        margin-top: 9px;
+    }
+    .row{
+        width: 38.4em !important;
+    }
+   
+    .inputShape{                                                                                                                                                                                                                                                                                                                  
+        border-radius: 5px;
+        margin-bottom: 5px;
+        border: 1px solid;
+        border-color: #f6f6f6;
+        background-color: #f6f6f6;
+        width: 20em;
+        padding: 4px !important;
+    }
+
+    .para{
+        margin-left: 2em !important;
+    }
+
+    .scrollBar{
+        overflow-y: var(--overflow); 
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: -30px;
+        bottom: 0;
+        overflow-x: hidden; 
+        
+        }
+        
+        @media (min-width: 768px){
+        body {
+            width: 26% !important;
+        }
+    }
+    .footer{
+        display: block;
+        position: relative;
+        -ms-flex-order: 1;
+        order: 1;
+        width: 70%;
+        z-index: 10;
+    }
+    @media (min-width: 320px) and (max-width: 360px) {
+        .headerStyle{
+            background-color: #7b98d6 !important;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0%;
+        }
+        .contentStyle{
+            width: 100%;
+        }
+        .full_form{
+            width: 20.4em;
+            margin-top: 9px;
+        }
+        .d-flex.justify-content-around.-edit_profile {
+            width: 18em;
+        }
+        .para{
+            margin-left: 1em !important;
+        }
+        .banner_dare {
+            width: 90%;
+        }
+        
+        .img.user_2{
+            width: 40px;
+            padding-top: 12px;
+            margin-left: 0px;
+        }
+        .footer{
+            display: block;
+            position: relative;
+            order: 1;
+            width: 100%;
+            z-index: 10;
+        }
+        
+    }
+    @media (min-width: 360px) and (max-width: 410px) {
+        .headerStyle[_ngcontent-c0] {
+            background-color: #7b98d6 !important;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0%;
+        }
+        .contentStyle{
+            width: 100%;
+        }
+        .full_form{
+            width: 22.4em;
+            margin-top: 9px;
+        }
+        .d-flex.justify-content-around.-edit_profile {
+            margin-top: -5px;
+            width: 21em;
+        }
+        .para{
+            margin-left: 1em !important;
+        }
+        .banner_dare {
+            width: 90%;
+        }
+        
+        .img.user_2{
+            width: 40px;
+            padding-top: 12px;
+            margin-left: 0px;
+        }
+        .footer{
+            display: block;
+            position: relative;
+            order: 1;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    @media (min-width: 411px) and (max-width: 599px) { 
+        .headerStyle{
+            background-color: #7b98d6 !important;
+            display: block;
+            position: relative;
+            order: -1;
+            width: 100%;
+            z-index: 10;
+            margin-left: 0%;
+        }
+        .contentStyle{
+            width: 100%;
+        }
+        .full_form{
+            width: 24.4em;
+            margin-top: 9px;
+        }
+        .d-flex.justify-content-around.-edit_profile {
+            width: 23em;
+        }
+        .para{
+            margin-left: 7em !important;
+        }
+        .banner_dare {
+            width: 90%;
+        }
+        .img.user_2{
+            width: 40px;
+            padding-top: 12px;
+            margin-left: 0px;
+        }
+        .footer{
+            display: block;
+            position: relative;
+            order: 1;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    /*iPad*/
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .full_form{
+        width: 21.4em;
+        margin-top: 9px;
+    }
+    .d-flex.justify-content-around.-edit_profile {
+        width: 22em;
+    }
+    .para{
+        margin-left: 3em !important;
+    }
+    .banner_dare {
+        width: 90%;
+    }
+    
+    .img.user_2{
+        width: 40px;
+        padding-top: 12px;
+        margin-left: 0px;
+    }
+    .footer{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+    img.logo_notefication_well {
+        margin-left: 0px !important;
+        padding-top: 20px !important;
+    }
+}
+/*iPad Pro*/
+@media (min-width: 1024px) and (max-width: 1366px) { 
+    .full_form{
+        width: 22.4em;
+        margin-top: 9px;
+    }
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 73% !important;  
+        z-index: 10;
+        margin-left: 4%;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .d-flex.justify-content-around.-edit_profile {
+        width: 22em;
+    }
+    .para{
+        margin-left: 3em !important;
+    }
+    .banner_dare {
+        width: 67%;
+    }
+    .img.user_2{
+        width: 40px;
+        padding-top: 12px;
+        margin-left: 0px;
+    }
+    .footer{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 80%;
+        z-index: 10;
+    }
+    img.logo_notefication_well {
+        margin-left: 0px !important;
+        padding-top: 20px !important;
+    }
+}
+
+    

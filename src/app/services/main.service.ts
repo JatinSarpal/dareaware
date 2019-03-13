@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams,HttpResponse } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
     providedIn: 'root'
@@ -8,11 +7,13 @@ import { Observable } from 'rxjs';
 export class MainService {
 
     constructor(private http: HttpClient) { }
-
    
     post(url, body: any) {
-       
-        return this.http.post(url,body);
+        let header = new HttpHeaders();
+        header.set("Access-Control-Allow-Origin","true");
+        header.set("Allow", "GET,POST, HEAD");
+        //header.set('Content-Type', 'application/json');
+        return this.http.post(url, body, { headers: header });
     }
     
     // put(url, body: any) {
