@@ -1,3 +1,104 @@
 $colors: (
 	blueHeader:#7b98d6,
 );
+
+.headerStyle{
+    background-color:#7b98d6 !important;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 65%;
+    z-index: 10;
+    margin-left: 3%;
+}
+ion-footer {
+    display: block;
+    position: relative;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 65%;
+    z-index: 10;
+}
+.scrollBar{
+	overflow-y: var(--overflow);
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  right: -30px;
+	  bottom: 0;
+	  
+	}
+	@media (min-width: 320px) and (max-width: 360px) {
+		.headerStyle{
+			background-color: #7b98d6 !important;
+			display: block;
+			position: relative;
+			order: -1;
+			width: 100%;
+			z-index: 10;
+			margin-left: 0%;
+		}
+		.footer{
+			display: block;
+			position: relative;
+			order: 1;
+			width: 100%;
+			z-index: 10;
+		}
+	}
+	@media (min-width: 360px) and (max-width: 410px) {
+		.headerStyle{
+			background-color: #7b98d6 !important;
+			display: block;
+			position: relative;
+			order: -1;
+			width: 100%;
+			z-index: 10;
+			margin-left: 0%;
+		}
+		.footer{
+			display: block;
+			position: relative;
+			order: 1;
+			width: 100%;
+			z-index: 10;
+		}
+	}
+	@media (min-width: 411px) and (max-width: 599px) { 
+		.headerStyle{
+			background-color: #7b98d6 !important;
+			display: block;
+			position: relative;
+			order: -1;
+			width: 100%;
+			z-index: 10;
+			margin-left: 0%;
+		}	
+		.footer{
+			display: block;
+			position: relative;
+			order: 1;
+			width: 100%;
+			z-index: 10;
+		}
+	}
+	/*iPad*/
+@media (min-width: 768px) and (max-width: 1023px) { 
+	.headerStyle{
+		background-color: #7b98d6 !important;
+		display: block;
+		position: relative;
+		order: -1;
+		width: 100%;
+		z-index: 10;
+		margin-left: 0%;
+	}	
+	.footer{
+		display: block;
+		position: relative;
+		order: 1;
+		width: 100%;
+		z-index: 10;
+	}
+}
