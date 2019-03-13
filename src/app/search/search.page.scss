@@ -1,3 +1,24 @@
+.headerStyle{
+    background-color:#7b98d6 !important;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 65%;
+    z-index: 10;
+    margin-left: 3%;
+}
+.contentStyle{
+    width: 68%;
+}
+.scrollBar{
+    overflow-y: var(--overflow);
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: -30px;
+      bottom: 0;
+}
 .text1{
     padding-left: 10px;
     font-size: 14px;
@@ -9,20 +30,188 @@
     width: 39em;
     margin: 0 auto;
     margin-top: 7px;
+    margin-top: -5px;
 }
 
 .pointImg{
     padding-top: 10px;
-    margin-left: 23em;
+    margin-left: 12em;
     margin-top: 1em;
 }
 .button1{
     padding: 10px 15px 10px 15px !important;
     margin: 4px;
-    margin-left: 25em !important;
+    margin-left: 9em !important;
     border: none;
 }
 .userPic
 {
-    margin-left: 20em !important;
+    margin-left: 9em !important;
 }
+ion-footer {
+    display: block;
+    position: relative;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 68%;
+    z-index: 10;
+}
+@media (min-width: 320px) and (max-width: 360px) {
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 8em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 2em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 4em !important;
+    }
+    ion-footer{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+@media (min-width: 360px) and (max-width: 410px) {
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 9em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 5em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 5em !important;
+    }
+    ion-footer{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+@media (min-width: 411px) and (max-width: 599px) { 
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 9em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 9em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 7em !important;
+    }
+    ion-footer{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+/*iPad*/
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .headerStyle{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        margin-left: 0%; 
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 8em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 4em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 4em !important;
+    }
+    ion-footer{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+ }
+ /*iPad Pro*/
+@media (min-width: 1024px) and (max-width: 1366px) { 
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 12em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 9em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 9em !important;
+    }
+}
+
