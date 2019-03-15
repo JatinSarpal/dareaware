@@ -42,7 +42,7 @@
 }
 .edit_profile {
     padding-top: 10px;
-    margin-left: 40%;
+    margin-left: 36%;
 }
 .edit-txts_main {
     font-size: 12px;
@@ -85,6 +85,9 @@
     padding: 4px !important;
     
 }
+.contentStyle{
+    width: 60%;
+}
 .scrollBar{
     overflow-y: var(--overflow);
       position: absolute;
@@ -93,3 +96,97 @@
       right: -30px;
       bottom: 0;
 }
+.ion_row{
+    width: 38em;
+}
+.img_style{
+    float: left !important; 
+    margin-top: 1% !important;
+}
+.hdr_clr{
+    margin-left: 0%;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 60%;
+    z-index: 10;
+    background-color:#7b98d6 !important
+}
+.ion_toolbar{
+    background-color:#7b98d6 !important;
+}
+.ion_ttl_clr{
+    background:#7b98d6;
+}
+@media (min-width: 320px) and (max-width: 360px) {
+    .hdr_clr{
+        margin-left: 0%;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        background-color: #7b98d6 !important;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+}
+@media (min-width: 360px) and (max-width: 410px) {
+    .hdr_clr{
+        margin-left: 0%;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        background-color: #7b98d6 !important;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+}
+@media (min-width: 411px) and (max-width: 599px) { 
+    .hdr_clr{
+        margin-left: 0%;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        background-color: #7b98d6 !important;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) { 
+    .hdr_clr{
+        margin-left: 0%;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        background-color: #7b98d6 !important;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+}
+/*iPad*/
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .hdr_clr{
+        margin-left: 0%;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+        background-color: #7b98d6 !important;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+  }

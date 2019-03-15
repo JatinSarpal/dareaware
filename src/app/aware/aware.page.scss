@@ -1,12 +1,10 @@
 .headerStyle{
-    background-color:#7b98d6 !important;
+    background-color: #7b98d6 !important;
     display: block;
     position: relative;
-    -ms-flex-order: -1;
     order: -1;
-    width: 65%;
+    width: 68% !important;
     z-index: 10;
-    margin-left: 3%;
 }
 .contentStyle{
     width: 68%;
@@ -144,7 +142,7 @@ button.btn.btn-default.share_cancle.all_text {
     border: none !important;}
     
     .full_form{
-        width: 26.4em;
+        width: 23.4em;
         margin-top: 9px;
     }
     .row{
@@ -195,7 +193,7 @@ button.btn.btn-default.share_cancle.all_text {
             display: block;
             position: relative;
             order: -1;
-            width: 100%;
+            width: 100% !important;
             z-index: 10;
             margin-left: 0%;
         }
@@ -236,7 +234,7 @@ button.btn.btn-default.share_cancle.all_text {
             display: block;
             position: relative;
             order: -1;
-            width: 100%;
+            width: 100% !important;
             z-index: 10;
             margin-left: 0%;
         }
@@ -277,7 +275,7 @@ button.btn.btn-default.share_cancle.all_text {
             display: block;
             position: relative;
             order: -1;
-            width: 100%;
+            width: 100% !important;
             z-index: 10;
             margin-left: 0%;
         }
@@ -317,7 +315,7 @@ button.btn.btn-default.share_cancle.all_text {
         display: block;
         position: relative;
         order: -1;
-        width: 100%;
+        width: 100% !important;
         z-index: 10;
         margin-left: 0%;
     }
@@ -335,11 +333,9 @@ button.btn.btn-default.share_cancle.all_text {
         margin-left: 3em !important;
     }
     .banner_dare {
-        width: 100%;
+        width: 94%;
     }
-    .banner_dare {
-        width: 65%;
-    }
+    
     .img.user_2{
         width: 40px;
         padding-top: 12px;
@@ -357,49 +353,6 @@ button.btn.btn-default.share_cancle.all_text {
         padding-top: 20px !important;
     }
 }
-/*iPad Pro*/
-@media (min-width: 1024px) and (max-width: 1366px) { 
-    .full_form{
-        width: 20.4em;
-        margin-top: 9px;
-    }
-    .headerStyle{
-        background-color: #7b98d6 !important;
-        display: block;
-        position: relative;
-        order: -1;
-        width: 73% !important;
-        z-index: 10;
-        margin-left: 4%;
-    }
-    .contentStyle{
-        width: 100%;
-    }
-    .d-flex.justify-content-around.-edit_profile {
-        width: 18em;
-    }
-    .para{
-        margin-left: 3em !important;
-    }
-    .banner_dare {
-        width: 67%;
-    }
-    .img.user_2{
-        width: 40px;
-        padding-top: 12px;
-        margin-left: 0px;
-    }
-    .footer{
-        display: block;
-        position: relative;
-        order: 1;
-        width: 20.4em;
-        z-index: 10;
-    }
-    img.logo_notefication_well {
-        margin-left: 0px !important;
-        padding-top: 20px !important;
-    }
-}
+
 
     

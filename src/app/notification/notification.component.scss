@@ -1,3 +1,80 @@
-$colors: (
-	blueHeader:#7b98d6,
-);
+.lbl_mrgn{
+    margin-left: 20px;
+}
+.header{
+    margin-right: 31%;
+}
+.scrollBar{
+    overflow-y: var(--overflow); 
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    overflow-x: hidden; 
+    }
+    .itm_width{
+    position: initial;
+    width: 27em;
+    }
+    .center{
+        margin-left: 0%;
+        position: relative;
+        width: -3%;
+        width: 100%;
+        z-index: 10;
+        width: 27em;
+    }
+    @media (min-width: 320px) and (max-width: 360px) {
+        .header{
+            margin-right: 8%;
+        }
+        .center{
+            margin-left: 0%;
+            position: relative;
+            width: -3%;
+            width: 100%;
+            z-index: 10;
+            width: 20em;
+        }
+    }
+    @media (min-width: 360px) and (max-width: 410px) {
+        .header{
+            margin-right: 8%;
+        }
+        .center{
+            margin-left: 0%;
+            position: relative;
+            width: -3%;
+            width: 100%;
+            z-index: 10;
+            width: 23em;
+        }
+    }
+    @media (min-width: 411px) and (max-width: 599px) { 
+        .header{
+            margin-right: 8%;
+        }
+        .center{
+            margin-left: 0%;
+            position: relative;
+            width: -3%;
+            width: 100%;
+            z-index: 10;
+            width: 23em;
+        }
+    }
+     /*iPad*/
+  @media (min-width: 768px) and (max-width: 1023px) { 
+    .header{
+        margin-right: 8%;
+    }
+    .center{
+        margin-left: 0%;
+        position: relative;
+        width: -3%;
+        width: 100%;
+        z-index: 10;
+        width: 23em;
+    }
+  }

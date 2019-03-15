@@ -12,6 +12,16 @@
     margin-left: 15%;
     background-color:#7b98d6 !important
 }
+.darwarHrader{
+    float: left !important;
+     margin-top: 1% !important;
+}
+.ttl_clr{
+    background:#7b98d6;
+}
+.hdr_clr{
+    background-color:#7b98d6 !important
+}
 .txt_mrgn{
     margin-top: 16px;
     width: 72%;
@@ -40,6 +50,7 @@ select.dropdowns {
 	margin-bottom: 10px;
 }
 .all_text {
+    border:none !important;
     font-size: 12px;
 }
 .post_texts {
@@ -52,8 +63,11 @@ select.dropdowns {
 .public {
     padding: 0px;
 }
- 
+ .slct_mrgn{
+    margin-top: 39px;
+ }
 .dropSetting{
+    margin-right: 12px;
     margin-left: -31px;
     border: .1px solid;
     border-color: lightgray;
