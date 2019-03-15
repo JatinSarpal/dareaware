@@ -1,12 +1,35 @@
 .text1{
-    padding-left: 10px;
+    padding-left: 3px;
     font-size: 14px;
     font-weight: bold;
-    width:10em;
+    width: 10em;
 }
 .hdr_style{
-    background-color:#7b98d6 !important
+    background-color:#7b98d6 !important;
+    display: block;
+    position: relative;
+    -ms-flex-order: -1;
+    order: -1;
+    width: 65%;
+    z-index: 10;
 }
+.contentStyle{
+    width: 65%;
+}
+.follow-search {
+    padding-right: 0px;
+    margin-left: -46px;
+    padding-left: 0px;
+}
+.scrollBar{
+    overflow-y: var(--overflow);
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: -30px;
+      bottom: 0;
+}
+
 .formFull{
     width: 39em;
     margin: 0 auto;
@@ -15,16 +38,195 @@
 
 .pointImg{
     padding-top: 10px;
-    margin-left: 23em;
+    margin-left: 11em;
     margin-top: 1em;
 }
 .button1{
     padding: 10px 15px 10px 15px !important;
     margin: 4px;
-    margin-left: 25em !important;
+    margin-left: 13em !important;
     border: none;
 }
 .userPic
 {
-    margin-left: 20em !important;
+    margin-left: 11em !important;
+}
+.center{
+    display: block;
+    position: relative;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 65%;
+    z-index: 10;
+}
+@media (min-width: 320px) and (max-width: 360px) {
+    .hdr_style{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 7em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 6em !important;
+    }
+    .center{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+@media (min-width: 360px) and (max-width: 410px) {
+    .hdr_style{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 7em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 7em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 6em !important;
+    }
+    .center{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+@media (min-width: 411px) and (max-width: 599px) { 
+    .hdr_style{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 12em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 14em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 12em !important;
+    }
+    .center{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) { 
+    .hdr_style{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 23em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 30em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 23em !important;
+    }
+    .center{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
+}
+/*iPad*/
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .hdr_style{
+        background-color: #7b98d6 !important;
+        display: block;
+        position: relative;
+        order: -1;
+        width: 100%;
+        z-index: 10;
+    }
+    .contentStyle{
+        width: 100%;
+    }
+    .pointImg{
+        padding-top: 10px;
+        margin-left: 9em;
+        margin-top: 1em;
+    }
+    .button1{
+        padding: 10px 15px 10px 15px !important;
+        margin: 4px;
+        margin-left: 10em !important;
+        border: none;
+    }
+    .userPic{
+        margin-left: 8em !important;
+    }
+    .center{
+        display: block;
+        position: relative;
+        order: 1;
+        width: 100%;
+        z-index: 10;
+    }
 }
