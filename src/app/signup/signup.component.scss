@@ -55,14 +55,15 @@
     --ion-color-base: #7b98d6;
 }
 .scrollBar{
-overflow-y: var(--overflow);
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: -30px;
-  bottom: 0;
-  
-}
+    overflow-y: var(--overflow); 
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    overflow-x: hidden; 
+    
+    }
 .btn_signup{
     margin-left: 22%; 
     color: #999999; 

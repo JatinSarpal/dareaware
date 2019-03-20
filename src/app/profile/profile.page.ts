@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'profile',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['profile.page.scss'],
 })
 export class ProfilePage {
-
+  constructor(private location: Location) { }
+  ngOnInit() {}
+  
+  backButtonClick() {
+    this.location.back(); // <-- go back to previous location on cancel
+  }
 }
+
+
+
