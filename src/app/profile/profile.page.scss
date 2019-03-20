@@ -4,7 +4,8 @@
    ================================================= */
  .profile_follow {
     display: flow-root;
-    width: 100%;
+    margin-left: 17%;
+    width: 75%;
 }
 #pp {
     padding: 0px 25px 0px 25px;
@@ -12,15 +13,18 @@
     border-right: 1px solid gainsboro;
 }
 .profile_border {
+    width: 60%;
     border: 1px solid #f3f3f3;
     padding-top: 13px;
     margin-bottom: 15px;
     background: #fafafa;
-    border-left: none;
-    border-right: none;
+    margin-left: 17%;
 }
 .profile_texts1 {
     padding-right: 120px;
+}
+.ion_itm_mrgn{
+    margin-left: 15%;
 }
 .profile_photo {
     padding-right: 10px;
@@ -28,7 +32,9 @@
 .profile_photo1 {
     width: 100%;
 }
-.Seprater {
+.Seprater{
+    margin-left: 15%;
+    width: 64%;
     border-bottom: 1px solid gainsboro !important;
     padding-bottom: 17px;
 }
@@ -42,7 +48,15 @@
 }
 .edit_profile {
     padding-top: 10px;
-    margin-left: 36%;
+    margin-left: 40%;
+}
+.like_section {
+    margin-left: 15%;
+    padding-top: 10px;
+}
+.banner_dare {
+    width: 64%;
+    margin-left: 15%;
 }
 .edit-txts_main {
     font-size: 12px;
@@ -72,7 +86,7 @@
     margin-left: 0em !important;
 }
 .para{
-    margin-left: 2em !important;
+    margin-left: 10em !important;
 }
 .inputShape{
     
@@ -86,7 +100,7 @@
     
 }
 .contentStyle{
-    width: 60%;
+    width: 100%;
 }
 .scrollBar{
     overflow-y: var(--overflow); 
@@ -106,7 +120,7 @@
     margin-top: 1% !important;
 }
 .hdr_clr{
-    margin-left: 0%;
+    margin-left: 18%;
     display: block;
     position: relative;
     -ms-flex-order: -1;
@@ -134,6 +148,50 @@
     .contentStyle{
         width: 100%;
     }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 32%;
+    }
+    .edit-txts_main{
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_border[_ngcontent-c0] {
+        width: 91%;
+        border: 1px solid #f3f3f3;
+        padding-top: 13px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        margin-left: 0%; 
+    }
+    .profile_follow{
+        display: flow-root;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .ion_itm_mrgn{
+    margin-left: 0%; 
+    }
+    .para{
+        margin-left: 2em !important;
+    }
+    .banner_dare{
+        width: 95%;
+        margin-left: 0%; 
+    }
+    .like_section{
+        margin-left: 0%;
+        padding-top: 10px;
+    }
+    .Seprater{
+        margin-left: 0%;
+        width: 100%;
+        border-bottom: 1px solid gainsboro !important;
+        padding-bottom: 17px;
+    }
 }
 @media (min-width: 360px) and (max-width: 410px) {
     .hdr_clr{
@@ -147,6 +205,50 @@
     }
     .contentStyle{
         width: 100%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 32%;
+    }
+    .edit-txts_main{
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_border[_ngcontent-c0] {
+        width: 91%;
+        border: 1px solid #f3f3f3;
+        padding-top: 13px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        margin-left: 0%; 
+    }
+    .profile_follow{
+        display: flow-root;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .ion_itm_mrgn{
+    margin-left: 0%; 
+    }
+    .para{
+        margin-left: 2em !important;
+    }
+    .banner_dare{
+        width: 95%;
+        margin-left: 0%; 
+    }
+    .like_section{
+        margin-left: 0%;
+        padding-top: 10px;
+    }
+    .Seprater{
+        margin-left: 0%;
+        width: 100%;
+        border-bottom: 1px solid gainsboro !important;
+        padding-bottom: 17px;
     }
 }
 @media (min-width: 411px) and (max-width: 599px) { 
@@ -162,6 +264,50 @@
     .contentStyle{
         width: 100%;
     }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 32%;
+    }
+    .edit-txts_main{
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_border[_ngcontent-c0] {
+        width: 91%;
+        border: 1px solid #f3f3f3;
+        padding-top: 13px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        margin-left: 0%; 
+    }
+    .profile_follow{
+        display: flow-root;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .ion_itm_mrgn{
+    margin-left: 0%; 
+    }
+    .para{
+        margin-left: 2em !important;
+    }
+    .banner_dare{
+        width: 95%;
+        margin-left: 0%; 
+    }
+    .like_section{
+        margin-left: 0%;
+        padding-top: 10px;
+    }
+    .Seprater{
+        margin-left: 0%;
+        width: 100%;
+        border-bottom: 1px solid gainsboro !important;
+        padding-bottom: 17px;
+    }
 }
 @media (min-width: 600px) and (max-width: 767px) { 
     .hdr_clr{
@@ -175,6 +321,50 @@
     }
     .contentStyle{
         width: 100%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 38%;
+    }
+    .edit-txts_main{
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_border[_ngcontent-c0] {
+        width: 91%;
+        border: 1px solid #f3f3f3;
+        padding-top: 13px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        margin-left: 0%; 
+    }
+    .profile_follow{
+        display: flow-root;
+        margin-left: 1%;
+        width: 100%;
+    }
+    .ion_itm_mrgn{
+    margin-left: 0%; 
+    }
+    .para{
+        margin-left: 2em !important;
+    }
+    .banner_dare{
+        width: 95%;
+        margin-left: 0%; 
+    }
+    .like_section{
+        margin-left: 0%;
+        padding-top: 10px;
+    }
+    .Seprater{
+        margin-left: 0%;
+        width: 100%;
+        border-bottom: 1px solid gainsboro !important;
+        padding-bottom: 17px;
     }
 }
 /*iPad*/
@@ -190,5 +380,49 @@
     }
     .contentStyle{
         width: 100%;
+    }
+    .edit_profile{
+        padding-top: 10px;
+        margin-left: 32%;
+    }
+    .edit-txts_main{
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 6px;
+        margin-top: 2px;
+        margin-left: 42%;
+    }
+    .profile_border[_ngcontent-c0] {
+        width: 91%;
+        border: 1px solid #f3f3f3;
+        padding-top: 13px;
+        margin-bottom: 15px;
+        background: #fafafa;
+        margin-left: 0%; 
+    }
+    .profile_follow{
+        display: flow-root;
+        margin-left: 9%;
+        width: 100%;
+    }
+    .ion_itm_mrgn{
+    margin-left: 0%; 
+    }
+    .para{
+        margin-left: 2em !important;
+    }
+    .banner_dare{
+        width: 95%;
+        margin-left: 0%; 
+    }
+    .like_section{
+        margin-left: 0%;
+        padding-top: 10px;
+    }
+    .Seprater{
+        margin-left: 0%;
+        width: 100%;
+        border-bottom: 1px solid gainsboro !important;
+        padding-bottom: 17px;
     }
   }
