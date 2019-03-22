@@ -22,38 +22,38 @@ export class UserService {
     InsertPost(insertPostModel: InsertPostModel) {
 
         return this.mainService
-            .post(`${this.baseUrl}/posts/add`, insertPostModel).toPromise();
+            .post(`${this.baseUrl}posts/add`, insertPostModel).toPromise();
     }
     addComment(addCommentModel: AddCommentModel) {
         
         return this.mainService
-            .post(`${this.baseUrl}/comment/add`, addCommentModel).toPromise();
+            .post(`${this.baseUrl}comment/add`, addCommentModel).toPromise();
     }
 
     addShare(addShareModel: AddShareModel) {
         
         return this.mainService
-            .post(`${this.baseUrl}/share/add`, addShareModel).toPromise();
+            .post(`${this.baseUrl}share/add`, addShareModel).toPromise();
     }
     addLike(addLikeModel: AddLikeModel){
 
         return this.mainService
-        .post(`${this.baseUrl}/likes/add` , addLikeModel).toPromise();
+        .post(`${this.baseUrl}likes/add` , addLikeModel).toPromise();
     }
     addFollower(addFollowerModel: AddFollowerModel){
 
         return this.mainService
-        .post(`${this.baseUrl}/followings/add` , addFollowerModel).toPromise();
+        .post(`${this.baseUrl}followings/add` , addFollowerModel).toPromise();
     }
     genFeed(genralFeedModel:GenralFeedModel){
 
         return this.mainService
-        .post(`${this.baseUrl}/general_feed/show` , genralFeedModel).toPromise();
+        .post(`${this.baseUrl}general_feed/show` , genralFeedModel).toPromise();
     }
 
     notification(notificationModel:NotificationModel){
 
         return this.mainService
-        .post(`${this.baseUrl}/notification/get` , notificationModel).toPromise();
+        .post(`${this.baseUrl}notification/get` , notificationModel).toPromise();
     }
 }

@@ -15,13 +15,16 @@ export class AccountService {
 
   signin(signinModel: SigninModel) {
     return this.mainService
-      .post(`${this.baseUrl}/login`, signinModel).toPromise();
+      .post(`${this.baseUrl}login?username_email=`+signinModel.email+"&password="+signinModel.password, null).toPromise().then(data=>{
+        return data;
+      });
 
   }
 
   signUp(signupModel: SignupModel) {
+   
     return this.mainService
-      .post(`${this.baseUrl}register`, signupModel).toPromise().then(data => {
+      .post(`${this.baseUrl}register?email_number=`+signupModel.email_number+"&username="+signupModel.username+"&password="+signupModel.password, null).toPromise().then(data => {
         return data;
       });;
   }

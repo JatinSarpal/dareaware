@@ -9,11 +9,8 @@ export class MainService {
     constructor(private http: HttpClient) { }
    
     post(url, body: any) {
-        let header = new HttpHeaders();
-        header.set("Access-Control-Allow-Origin","true");
-        header.set("Allow", "GET,POST, HEAD");
-        //header.set('Content-Type', 'application/json');
-        return this.http.post(url, body, { headers: header });
+      
+        return this.http.post(url, body);
     }
     
     // put(url, body: any) {
@@ -26,9 +23,9 @@ export class MainService {
     // getObservable(url):Observable<HttpResponse<any>>{
     //     return this.http.get(url, { headers: headers, observe:'response' });
     // }
-    // getWithParams(url, params: HttpParams) {
-    //     return this.http.get(url, { headers: headers, params: params });
-    // }
+    getWithParams(url) {
+        return this.http.get(url);
+    }
 
     // delete(url) {
     //     let headers = this.updateParams();
