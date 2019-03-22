@@ -12,7 +12,7 @@ export class SigninComponent implements OnInit {
 
   signinModel: SigninModel = {
     
-    email: '',
+    username_email: '',
     password:''
   };
 
@@ -27,7 +27,7 @@ export class SigninComponent implements OnInit {
   this.accountService.signin(this.signinModel)
   .then((x: any) => {
     localStorage.setItem('access_token', x.access_token);
-    localStorage.setItem('email', this.signinModel.email);
+    localStorage.setItem('username_email', this.signinModel.username_email);
     
     this.navCtrl.navigateRoot('/profile');
   })

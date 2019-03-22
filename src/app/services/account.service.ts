@@ -15,7 +15,7 @@ export class AccountService {
 
   signin(signinModel: SigninModel) {
     return this.mainService
-      .post(`${this.baseUrl}login?username_email=`+signinModel.email+"&password="+signinModel.password, null).toPromise().then(data=>{
+      .post(`${this.baseUrl}login?username_email=`+signinModel.username_email+"&password="+signinModel.password, null).toPromise().then(data=>{
         return data;
       });
       //avcdd
@@ -29,5 +29,12 @@ export class AccountService {
         return data;
       });;
   }
+
+  // logout(){
+  //     return this.mainService
+  //     .post(`${this.baseUrl}notification/get` , notificationModel).toPromise();
+
+  //    ,`5` 
+  // }
 }
 
