@@ -4,7 +4,11 @@
 
 export const environment = {
   production: false,
+<<<<<<< HEAD
   baseUrl: "http://localhost:4040/dora/public/"
+=======
+  baseUrl: "http://localhost/dora/public/"
+>>>>>>> 57a128ad5a883086ab96ede69e7b5e77828ff553
 };
 
 /*

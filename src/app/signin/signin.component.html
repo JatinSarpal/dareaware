@@ -1,5 +1,5 @@
 <ion-content padding-top padding-bottom padding-start padding-end class="tax">
-  <div>
+  <div class="scrollBar">
     <form (ngSubmit)="signin()">
     <ion-list lines="none" padding-start padding-end margin-bottom>
         <ion-row>
@@ -19,13 +19,21 @@
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col class="txt_css">
-          <ion-input placeholder="Phone number, username, or email" name="email" [(ngModel)]="signinModel.email"></ion-input>
+        <ion-col >
+            <ion-item class="txt_css">
+                <ion-label class="label_color" position="floating">Phone number, username, or email</ion-label>
+                <ion-input name="userName" [(ngModel)]="signinModel.email"></ion-input>
+              </ion-item>
+          <!-- <ion-input placeholder="Phone number, username, or email" name="email" [(ngModel)]="signinModel.email"></ion-input> -->
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col class="txt_css">
-          <ion-input placeholder="Password" name="password" [(ngModel)]="signinModel.password"></ion-input>
+        <ion-col >
+            <ion-item class="txt_css">
+                <ion-label class="label_color" position="floating">Password</ion-label>
+                <ion-input name="password" type="password" [(ngModel)]="signinModel.password"></ion-input>
+              </ion-item>
+          <!-- <ion-input placeholder="Password" name="password" [(ngModel)]="signinModel.password"></ion-input> -->
         </ion-col>
       </ion-row>
       <ion-row >

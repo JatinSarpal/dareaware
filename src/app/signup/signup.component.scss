@@ -5,13 +5,20 @@
     height: 30px;
     font-size: 10px;   
 }
+ion-item{
+    --ion-background-color:#fafafa;
+ }
 .txt_css{
     background: #fafafa;
     margin-left: 9%;
     margin-right: 23%;
     font-size: 11px;
-    margin-bottom: 10px;
-    
+}
+.label_color{
+    color: #999999;
+}
+.item-native{
+    background: #fafafa !important;
 }
 .ion_mrgn{
     margin-top: 15px !important;
@@ -64,6 +71,9 @@
     overflow-x: hidden; 
     
     }
+    .label-md[floating] {
+       color: red;
+     }
 .btn_signup{
     margin-left: 22%; 
     color: #999999; 
@@ -86,23 +96,24 @@
         margin-left: 0%;
     }
     .anch{
-        margin-left: 6%;
+        margin-left: 13%;
         color: #999999;
         font-size: 12px;
         font-weight: 500;
         padding: 20px;
     }
     .txt_css{
+        width: 94%;
         background: #fafafa;
         margin-left: 0%;
-        margin-right: 4%;
+        margin-right: 0%; 
         font-size: 11px;
-        margin-bottom: 10px;
+        margin-bottom: -5px;
     }
     .btn_css{
         margin-top: -25px;
         margin-left: -2%;
-        width: 100%;
+        width: 96%;
         height: 30px;
         font-size: 10px;
         background: #7b98d6 !important;
@@ -118,10 +129,10 @@
         background: #fafafa;
         border: 2px solid #f3f3f3;
         margin-left: 0%;
-        margin-right: 5%;
+        margin-right: 8%;
     }
     .btn_signup{
-        margin-left: 0%;
+        margin-left: 15%;
         color: #999999;
         font-size: 11px;
         height: 40px;
@@ -139,16 +150,16 @@
         margin-left: 46%;
     }
     .txt_css{
+        width: 90%;
         background: #fafafa;
-        margin-left: 0%;
-        margin-right: 0%;
         font-size: 11px;
-        margin-bottom: 10px;
+        margin-bottom: -1px;
+        margin-left: 0%;
     }
     .btn_css{
         margin-top: -25px;
         margin-left: 0%;
-        width: 100%;
+        width: 90%;
         height: 30px;
         font-size: 10px;
         background: #7b98d6 !important;
@@ -164,7 +175,7 @@
         background: #fafafa;
         border: 2px solid #f3f3f3;
         margin-left: 0%;
-        margin-right: 3%;
+        margin-right: 11%;
     }
     .btn_signup{
         margin-left: 14%;
@@ -188,14 +199,14 @@
         margin-left: 12%;
     }
     .txt_css{
-        margin-right: 5px;
+        margin-right: 37px;
         background: #fafafa;
         margin-left: 2%;
         font-size: 11px;
-        margin-bottom: 10px;
+        margin-bottom: 2px;
     }
     .btn_css{
-        width: 100%;
+        width: 90%;
         margin-top: -25px;
         margin-left: 1%;
         height: 30px;
@@ -211,7 +222,6 @@
         cursor: pointer;
     }
     .btn_signin{
-        margin-right: 5px;
         margin-left: 10px;
         font-size: 14px;
         text-align: center;
@@ -244,7 +254,7 @@
         margin-left: 2px;
         background: #fafafa;
         font-size: 11px;
-        margin-bottom: 10px;
+        margin-bottom: -5px;
         margin-right: 7px;
     }
     .btn_css{
@@ -294,6 +304,7 @@
     .Ggl_btn{
         margin-left: 19%;
     }
+    
     .btn_css{
         margin-top: -27px;
         margin-left: 15%;
@@ -303,6 +314,7 @@
         width: 60%;
     }
     .txt_css{
+        margin-top: -16px;
         background: #fafafa;
         margin-left: 16%;
         margin-right: 25%;
