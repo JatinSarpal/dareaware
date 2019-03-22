@@ -18,6 +18,7 @@ export class AccountService {
       .post(`${this.baseUrl}login?username_email=`+signinModel.email+"&password="+signinModel.password, null).toPromise().then(data=>{
         return data;
       });
+      //avcdd
 
   }
 
