@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: "https://dora.wisdominfosoft.com/public/"
+  baseUrl: "http://localhost/dora/public/"
 };
 
 /*
