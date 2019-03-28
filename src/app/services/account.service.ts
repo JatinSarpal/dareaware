@@ -34,4 +34,11 @@ export class AccountService {
 //   .post(`${this.baseUrl}register?email=`+forgotPasswordModel.email+"||mobileNumber="+forgotPasswordModel.mobileNumber+"&userName="+forgotPasswordModel.userName, null).toPromise().then(data => {
 //   });;
 // }
+
+  // logout(){
+  //     return this.mainService
+  //     .post(`${this.baseUrl}notification/get` , notificationModel).toPromise();
+
+  //    ,`5` 
+  // }
 }
