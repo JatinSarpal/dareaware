@@ -3,6 +3,7 @@ import { MainService } from './main.service';
 import { environment } from '../../environments/environment';
 import { SignupModel } from '../models/signup-model';
 import { SigninModel } from '../models/Signin-model';
+import { ForgotPasswordModel } from '../models/forgot-password-model';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,7 @@ export class AccountService {
 
   signin(signinModel: SigninModel) {
     return this.mainService
-      .post(`${this.baseUrl}login?username_email=`+signinModel.email+"&password="+signinModel.password, null).toPromise().then(data=>{
+      .post(`${this.baseUrl}login?username_email=`+signinModel.username_email+"&password="+signinModel.password, null).toPromise().then(data=>{
         return data;
       });
       //avcdd
@@ -23,11 +24,14 @@ export class AccountService {
   }
 
   signUp(signupModel: SignupModel) {
-   
     return this.mainService
       .post(`${this.baseUrl}register?email_number=`+signupModel.email_number+"&username="+signupModel.username+"&password="+signupModel.password, null).toPromise().then(data => {
         return data;
       });;
   }
+//   forgotPassword(forgotPasswordModel: ForgotPasswordModel){
+//   return this.mainService
+//   .post(`${this.baseUrl}register?email=`+forgotPasswordModel.email+"||mobileNumber="+forgotPasswordModel.mobileNumber+"&userName="+forgotPasswordModel.userName, null).toPromise().then(data => {
+//   });;
+// }
 }
-
